@@ -1,0 +1,49 @@
+
+body { 
+	background-color: Aqua;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 45px;
+}
+input {
+	padding: 15px;
+	font-size: inherit;
+}
+form {
+	margin: 50px auto;
+	width: 460px;
+}
+input[type="text"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid red;
+}
+input[type="Email"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid red;
+}
+input[type="date"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid red;
+}
+input[type="number"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid red;
+}
+input[type="submit"] {
+	width:170px;
+	height: 50px;
+	background: #FFFF00;
+}
+
+
