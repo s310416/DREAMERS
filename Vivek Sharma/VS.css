@@ -1,0 +1,81 @@
+body {
+   background-image: url("back.jpg");
+   background-size: 1200px 600px;
+}
+@media screen and (max-width:640px) {
+}
+.details {
+      max-width: 450px;
+    	background: #FAFAFA;
+    	padding: 30px;
+    	margin: 50px auto;
+    	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    	border-radius: 10px;
+    	border: 6px solid #305A72;
+      font-size:25px;
+  }
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  color: black;
+}
+form {
+  margin: auto;
+  max-width: 500px;
+  color: blue;
+
+}
+input {
+  padding: 10px;
+  font-size: inherit;
+}
+input[type="text"] {
+  display: block;
+  margin-bottom: 25px;
+  width: 90%;
+  border: 2px solid black;
+  background: #e0ebe8;
+  border-radius: 10px;
+
+}
+input[type="Email"] {
+  display: block;
+  margin-bottom: 25px;
+  width: 90%;
+  border: 2px solid black;
+  background: #e0ebe8;
+  border-radius: 10px;
+
+}
+input[type="tel"] {
+  display: block;
+  margin-bottom: 25px;
+  width: 90%;
+  border: 2px solid black;
+  background: #e0ebe8;
+  border-radius: 10px;
+
+}
+input[type="date"] {
+  display: block;
+  margin-bottom: 25px;
+  width: 90%;
+  border: 2px solid black;
+  background: #e0ebe8;
+  border-radius: 10px;
+
+}
+input[type="submit"]:hover {
+display: block;
+background: #0dd39d;
+color: blue;
+border: none;
+padding: 10px 20px;
+-moz-border-radius: 2px;
+border-radius: 15px;
+cursor: pointer;
+}
+input:focus {
+  background: white;
+}
