@@ -5,10 +5,8 @@
 }
 
 body{
-	width: 100%;
 	background-image: url(cap3.jpg);
-	background-size: 100% 700px;
-	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 h1{
