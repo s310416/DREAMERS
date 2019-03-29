@@ -1,6 +1,7 @@
 
 body{
-  background-color: white;
+  background-image: url("dream12.jpg");
+  background-repeat: no-repeat;
 }
 .wrapper {
   max-width: 100%;
@@ -19,6 +20,7 @@ body{
   	padding: 30px;
   	margin: auto;
     margin-right: 20px;
+    margin-left: 20px;
   	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
   	border-radius: 10px;
   	border: 6px solid #305A72;
