@@ -3,6 +3,10 @@ body{
   background-image: url("dream.jpg");
   background-repeat: no-repeat;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 .wrapper {
   max-width: 100%;
   background: white;
